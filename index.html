@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg-animation"></div>
+<div class="cursor"></div>
+
+<!-- Navigation -->
+<nav id="navbar">
+  <div class="logo">
+    <img src="images/Aniruddha DevHub Logo.png" alt="Logo" class="logo-img">
+    <span class="logo-text">Aniruddha DevHub</span>
+  </div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact" class="nav-cta">Let's Talk</a></li>
+  </ul>
+  <button class="menu-toggle" id="menuToggle">
+    <i class="fas fa-bars"></i>
+  </button>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero" id="home">
+  <div class="hero-content">
+    <div class="hero-text">
+      <!-- <div class="hero-badge">
+        <span class="dot"></span>
+        Available for new projects
+      </div> -->
+        <h1>
+        Hi, I'm <span class="gradient-text">Aniruddha Indalkar</span>
+        <br>
+        Creative Developer
+      </h1>
+      <div class="typed-text">I am a <span id="typed"></span></div>
+      <p>Crafting beautiful, performant web experiences with modern technologies. Turning ideas into pixel-perfect digital realities.</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">
+          View My Work <i class="fas fa-arrow-right"></i>
+        </a>
+        <a href="#contact" class="btn btn-secondary">
+          <i class="fas fa-paper-plane"></i> Get in Touch
+        </a>
+      </div>
+      <!-- <div class="hero-stats">
+        <div class="stat">
+          <h3 data-target="50">0+</h3>
+          <p>Projects Completed</p>
+        </div>
+        <div class="stat">
+          <h3 data-target="5">0+</h3>
+          <p>Years Experience</p>
+        </div>
+        <div class="stat">
+          <h3 data-target="30">0+</h3>
+          <p>Happy Clients</p>
+        </div>
+      </div> -->
+    </div>
+    <div class="hero-image">
+      <div class="hero-image-wrapper">
+        <div class="hero-image-inner">
+          <img src="images/me.jpeg" alt="Aniruddha Indalkar">
+        </div>
+        <!-- <div class="floating-icon icon-1"><i class="fab fa-react"></i></div>
+        <div class="floating-icon icon-2"><i class="fab fa-js"></i></div>
+        <div class="floating-icon icon-3"><i class="fab fa-node-js"></i></div>
+        <div class="floating-icon icon-4"><i class="fab fa-html5"></i></div> -->
+      </div>
+    </div>
+  </div>
+  <div class="scroll-indicator">
+    Scroll Down
+    <i class="fas fa-chevron-down"></i>
+  </div>
+</section>
+
+<!-- About Section -->
+<section class="about" id="about">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-tag"><h1>About Me</h1></span>
+    </div>
+    <div class="about-content">
+      <div class="about-image fade-in">
+        <div class="about-image-inner">
+          <img src="images/my_img.jpeg" alt="About Me">
+        </div>
+        <!-- <div class="experience-card">
+          <div class="number">5+</div>
+          <div>
+            <div style="font-weight: 600;">Years of</div>
+            <div class="label">Experience</div>
+          </div>
+        </div> -->
+      </div>
+      <div class="about-text fade-in">
+        <h3>Designing & Developing Digital Experiences</h3>
+        <p>I’m a tech enthusiast, an MBA and a lifelong learner want to develop efficient systems for logistics management and use business analytical tools to research, analyse and provide solutions to the businesses using analytics methodology effectively.</p>
+        <a href="#" class="btn btn-primary">
+          <i class="fas fa-download"></i> Download CV
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Skills Section -->
+<!-- <section class="skills" id="skills"> -->
+  <!-- <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-tag">My Skills</span>
+      <h2 class="section-title">Expertise & <span class="gradient-text">Tools</span></h2>
+      <p class="section-subtitle">Technologies and tools I use to bring ideas to life</p>
+    </div> -->
+    <!-- <div class="skills-grid"> -->
+      <!-- <div class="skill-card fade-in">
+        <div class="skill-icon"><i class="fas fa-code"></i></div>
+        <h3>Frontend Development</h3>
+        <ul class="skill-list">
+          <li class="skill-item">
+            <div class="name"><span>React / Next.js</span><span>95%</span></div>
+            <div class="skill-bar"><div class="skill-progress" data-progress="95"></div></div>
+          </li>
+          <li class="skill-item">
+            <div class="name"><span>Vue.js</span><span>85%</span></div>
+            <div class="skill-bar"><div class="skill-progress" data-progress="85"></div></div>
+          </li>
+          <li class="skill-item">
+            <div class="name"><span>TypeScript</span><span>90%</span></div>
+            <div class="skill-bar"><div class="skill-progress" data-progress="90"></div></div>
+          </li>
+        </ul>
+      </div>
+       <div class="skill-card fade-in">
+        <div class="skill-icon"><i class="fas fa-server"></i></div>
+        <h3>Backend Development</h3>
+        <ul class="skill-list">
+          <li class="skill-item">
+            <div class="name"><span>Node.js / Express</span><span>92%</span></div>
+            <div class="skill-bar"><div class="skill-progress" data-progress="92"></div></div>
+          </li>
+          <li class="skill-item">
+            <div class="name"><span>Python / Django</span><span>80%</span></div>
+            <div class="skill-bar"><div class="skill-progress" data-progress="80"></div></div>
+          </li>
+          <li class="skill-item">
+            <div class="name"><span>GraphQL</span><span>85%</span></div>
+            <div class="skill-bar"><div class="skill-progress" data-progress="85"></div></div>
+          </li>
+        </ul>
+      </div> -->
+      <!-- <div class="skill-card fade-in">
+        <div class="skill-icon"><i class="fas fa-database"></i></div>
+        <h3>Database & Cloud</h3>
+        <ul class="skill-list">
+          <li class="skill-item">
+            <div class="name"><span>MongoDB / PostgreSQL</span><span>88%</span></div>
+            <div class="skill-bar"><div class="skill-progress" data-progress="88"></div></div>
+          </li>
+          <li class="skill-item">
+            <div class="name"><span>AWS / Firebase</span><span>82%</span></div>
+            <div class="skill-bar"><div class="skill-progress" data-progress="82"></div></div>
+          </li>
+          <li class="skill-item">
+            <div class="name"><span>Docker / K8s</span><span>75%</span></div>
+            <div class="skill-bar"><div class="skill-progress" data-progress="75"></div></div>
+          </li>
+        </ul>
+      </div> -->
+      <!-- <div class="skill-card fade-in">
+        <div class="skill-icon"><i class="fas fa-paint-brush"></i></div>
+        <h3>Design & UI/UX</h3>
+        <ul class="skill-list">
+          <li class="skill-item">
+            <div class="name"><span>Figma / Adobe XD</span><span>90%</span></div>
+            <div class="skill-bar"><div class="skill-progress" data-progress="90"></div></div>
+          </li>
+          <li class="skill-item">
+            <div class="name"><span>Tailwind / SASS</span><span>95%</span></div>
+            <div class="skill-bar"><div class="skill-progress" data-progress="95"></div></div>
+          </li>
+          <li class="skill-item">
+            <div class="name"><span>Framer Motion</span><span>85%</span></div>
+            <div class="skill-bar"><div class="skill-progress" data-progress="85"></div></div>
+          </li>
+        </ul>
+      </div> -->
+      <!-- <div class="skill-card fade-in">
+        <div class="skill-icon"><i class="fas fa-mobile-alt"></i></div>
+        <h3>Mobile Development</h3>
+        <ul class="skill-list">
+          <li class="skill-item">
+            <div class="name"><span>React Native</span><span>85%</span></div>
+            <div class="skill-bar"><div class="skill-progress" data-progress="85"></div></div>
+          </li>
+          <li class="skill-item">
+            <div class="name"><span>Flutter</span><span>70%</span></div>
+            <div class="skill-bar"><div class="skill-progress" data-progress="70"></div></div>
+          </li>
+          <li class="skill-item">
+            <div class="name"><span>iOS / Swift</span><span>65%</span></div>
+            <div class="skill-bar"><div class="skill-progress" data-progress="65"></div></div>
+          </li>
+        </ul>
+      </div> -->
+      <!-- <div class="skill-card fade-in">
+        <div class="skill-icon"><i class="fas fa-tools"></i></div>
+        <h3>Tools & DevOps</h3>
+        <ul class="skill-list">
+          <li class="skill-item">
+            <div class="name"><span>Git / GitHub</span><span>95%</span></div>
+            <div class="skill-bar"><div class="skill-progress" data-progress="95"></div></div>
+          </li>
+          <li class="skill-item">
+            <div class="name"><span>CI/CD Pipelines</span><span>80%</span></div>
+            <div class="skill-bar"><div class="skill-progress" data-progress="80"></div></div>
+          </li>
+          <li class="skill-item">
+            <div class="name"><span>Webpack / Vite</span><span>85%</span></div>
+            <div class="skill-bar"><div class="skill-progress" data-progress="85"></div></div>
+          </li>
+        </ul>
+      </div> -->
+    <!-- </div>
+  </div>
+</section> -->
+
+<!-- Projects Section -->
+<!-- <section class="projects" id="projects">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-tag">My Work</span>
+      <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+      <p class="section-subtitle">A selection of my recent work and personal projects</p>
+    </div>
+    <div class="projects-filter fade-in">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="web">Web Apps</button>
+      <button class="filter-btn" data-filter="mobile">Mobile</button>
+      <button class="filter-btn" data-filter="design">Design</button>
+    </div>
+    <div class="projects-grid">
+      <div class="project-card fade-in" data-category="web">
+        <div class="project-image">
+          <img src="images/my_img_3.jpeg" alt="Project Image">
+          <div class="project-overlay">
+            <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <div class="project-info">
+          <span class="project-tag">Web App</span>
+          <h3>E-Commerce Platform</h3>
+          <p>Full-featured online store with payment integration and admin dashboard.</p>
+          <div class="project-tech">
+            <span class="tech-badge">React</span>
+            <span class="tech-badge">Node.js</span>
+            <span class="tech-badge">Stripe</span>
+          </div>
+        </div>
+      </div>
+      <div class="project-card fade-in" data-category="mobile">
+        <div class="project-image">
+          <img src="" alt="Project Image">
+          <div class="project-overlay">
+            <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <div class="project-info">
+          <span class="project-tag">Mobile App</span>
+          <h3>Fitness Tracker</h3>
+          <p>Cross-platform fitness app with workout plans and progress tracking.</p>
+          <div class="project-tech">
+            <span class="tech-badge">React Native</span>
+            <span class="tech-badge">Firebase</span>
+          </div>
+        </div>
+      </div>
+      <div class="project-card fade-in" data-category="web">
+        <div class="project-image">
+          <img src="" alt="Project Image">
+          <div class="project-overlay">
+            <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <div class="project-info">
+          <span class="project-tag">Dashboard</span>
+          <h3>Analytics Dashboard</h3>
+          <p>Real-time data visualization platform with interactive charts.</p>
+          <div class="project-tech">
+            <span class="tech-badge">Vue.js</span>
+            <span class="tech-badge">D3.js</span>
+            <span class="tech-badge">Python</span>
+          </div>
+        </div>
+      </div>
+      <div class="project-card fade-in" data-category="design">
+        <div class="project-image">
+          <img src="" alt="Project Image">
+          <div class="project-overlay">
+            <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+            <a href="#" class="project-link"><i class="fab fa-behance"></i></a>
+          </div>
+        </div>
+        <div class="project-info">
+          <span class="project-tag">UI/UX</span>
+          <h3>Banking App Design</h3>
+          <p>Modern banking app interface with focus on user experience.</p>
+          <div class="project-tech">
+            <span class="tech-badge">Figma</span>
+            <span class="tech-badge">Prototyping</span>
+          </div>
+        </div>
+      </div>
+      <div class="project-card fade-in" data-category="web">
+        <div class="project-image">
+          <img src="" alt="Project Image">
+          <div class="project-overlay">
+            <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <div class="project-info">
+          <span class="project-tag">AI/ML</span>
+          <h3>AI Chatbot Platform</h3>
+          <p>Intelligent chatbot with NLP and machine learning capabilities.</p>
+          <div class="project-tech">
+            <span class="tech-badge">Next.js</span>
+            <span class="tech-badge">OpenAI</span>
+            <span class="tech-badge">Python</span>
+          </div>
+        </div>
+      </div>
+      <div class="project-card fade-in" data-category="mobile">
+        <div class="project-image">
+          <img src="" alt="Project Image">
+          <div class="project-overlay">
+            <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <div class="project-info">
+          <span class="project-tag">Mobile App</span>
+          <h3>Food Delivery App</h3>
+          <p>On-demand food delivery with real-time order tracking.</p>
+          <div class="project-tech">
+            <span class="tech-badge">Flutter</span>
+            <span class="tech-badge">Firebase</span>
+            <span class="tech-badge">Maps API</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-tag">Get in Touch</span>
+      <h2 class="section-title">Let's Work <span class="gradient-text">Together</span></h2>
+      <p class="section-subtitle">Have a project in mind? Let's create something amazing together</p>
+    </div>
+    <div class="contact-content">
+      <div class="contact-info fade-in">
+        <h3>Let's start a conversation</h3>
+        <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.</p>
+        <!-- <div class="contact-items">
+          <div class="contact-item">
+            <div class="icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <div class="label">Email</div>
+              <div class="value">aniruddha@dev.com</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon"><i class="fas fa-phone"></i></div>
+            <div>
+              <div class="label">Phone</div>
+              <div class="value">+1 (555) 123-4567</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <div class="label">Location</div>
+              <div class="value">San Francisco, CA</div>
+            </div>
+          </div>
+        </div> -->
+        <h4 style="margin-bottom: 1rem; font-family: 'Space Grotesk';">Follow Me</h4>
+        <div class="social-links">
+          <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <form class="contact-form fade-in" id="contactForm" action="https://formsubmit.co/aniruddha@xyhd.com" method="POST">
+  
+        <input type="text" name="_honey" style="display:none">
+        <input type="hidden" name="_next" value="thankyou.html">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        
+        <div class="form-row">
+          <div class="form-group">
+            <label>Your Name</label>
+            <input type="text" name="name" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <label>Your Email</label>
+            <input type="email" name="email" placeholder="Your Email" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Subject</label>
+          <input type="text" name="subject" placeholder="Project Inquiry" required>
+        </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea name="message" placeholder="Tell me about your project..." required></textarea>
+        </div>
+        <button type="submit">
+          Send Message <i class="fas fa-paper-plane"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+   <div class="footer-content">
+    <div class="footer-brand">
+      <div class="logo">
+        <img src="images/Aniruddha DevHub Logo.png" alt="Logo" class="logo-img">
+        <span class="logo-text">Aniruddha DevHub</span>
+      </div>
+      <p>Creative developer crafting beautiful, performant digital experiences with passion and precision.</p>
+      <div class="social-links">
+        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Services</h4>
+      <ul>
+        <li><a href="#">Web Development</a></li>
+        <li><a href="#">Mobile Apps</a></li>
+        <li><a href="#">UI/UX Design</a></li>
+        <li><a href="#">Consulting</a></li>
+      </ul>
+    </div>
+    <!-- <div class="footer-col">
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="#">aniruddha@dev.com</a></li>
+        <li><a href="#">+1 (555) 123-4567</a></li>
+        <li><a href="#">San Francisco, CA</a></li>
+      </ul>
+    </div> -->
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; <span id="year">2024</span> Aniruddha Indalkar. All rights reserved.</p>
+    <p>Made with <span class="heart">❤️</span> and ☕ by Aniruddha Indalkar</p>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
