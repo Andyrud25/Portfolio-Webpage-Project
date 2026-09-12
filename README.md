@@ -1,5 +1,5 @@
 #  🌐 Aniruddha DevHub - Portfolio Webpage
-A personal portfolio website built with **HTML**, **CSS**, and **JavaScript**, deployed on **Firebase Hosting**.
+A personal portfolio website built with **HTML**, **CSS**, and **JavaScript**.
 
 
 ## 📋 Table of Contents
@@ -14,7 +14,7 @@ A personal portfolio website built with **HTML**, **CSS**, and **JavaScript**, d
 
 ## About
 
-This is the source code for my personal developer portfolio. It serves as a central hub to introduce myself, highlight my skills, showcase my projects, and make it easy for anyone to get in touch. Built entirely with vanilla web technologies and hosted on Firebase.
+This is the source code for my personal developer portfolio. It serves as a central hub to introduce myself, highlight my skills, showcase my projects, and make it easy for anyone to get in touch. Built entirely with vanilla web technologies.
 
 ## Sections
 
